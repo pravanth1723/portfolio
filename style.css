@@ -1,0 +1,523 @@
+    body {
+        background: #191970;
+        overflow-x: hidden;
+    }
+    #check{
+        display: none;
+    }
+    #bar {
+        line-height: 50px;
+        color: white;
+        font-size: 30px;
+        float: right;
+        margin-right: 30px;
+        cursor: pointer;
+        display: none;
+    }
+
+    * {
+
+        /* background: #ffffff; */
+        /* background: rgb(99, 106, 207); */
+        font-family: sans-serif;
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    header {
+        background: #0e0e3f;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 10%;
+        /* background: transparent; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .logo {
+        position: relative;
+        font-size: 25px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .navbar a {
+        display: inline-block;
+        font-style: 25px;
+        font-weight: 500;
+        margin-left: 35px;
+        transition: 0.3s;
+    }
+ 
+
+    .navbar a:hover {
+        color: cyan;
+    }
+
+    .home {
+        position: relative;
+        width: 100%;
+        margin-top: 50px;
+        justify-content: space-between;
+        background: #191970;
+        /* background: white; */
+        /* background: ; */
+        display: flex;
+        align-items: center;
+        padding: 70px 10%;
+        padding-bottom: 0px;
+        /* background: red; */
+    }
+
+    .home h2 {
+        font-size: 50px;
+    }
+
+    .dp img {
+        /* margin-top: 20px; */
+        height: 40vh;
+        width: 40vh;
+    }
+
+    h1,
+    h2 {
+        margin: 3px 0px;
+    }
+
+    h2 {
+        margin-left: 15px;
+    }
+
+    p {
+
+        font-size: xx-large;
+        font-weight: 700;
+    }
+
+    .role {
+        margin-bottom: 10px;
+        ;
+        color: cyan;
+    }
+
+
+    .media {
+        margin: 0px 130px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        /* border-top: 3px solid cyan; */
+        width: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .media i {
+        margin: 2px 15px;
+        transform: scale(2);
+    }
+
+    button {
+        background: cyan;
+        border-radius: 9px;
+        /* margin-left: 120px; */
+        margin-right: 10px;
+        border: none;
+        padding: 3px 5px;
+        font-weight: 400;
+        font-size: xx-large;
+        /* transform: scale(2); */
+    }
+
+    button a {
+        color: #191970;
+    }
+
+
+
+    /* updated */
+    /* nav ul {
+        float: right;
+        margin-right: 10px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0px 30px;
+    } */
+
+    /* nav ul li a {
+        color: white;
+        font-size: 21px;
+        font-family: cursive;
+    } */
+
+    /* a.active,
+    a:hover {
+        background: white;
+        color: rgb(126, 190, 22);
+        transition: 0.15s;
+      
+        border-radius: 10px;
+        padding: 3px 0px;
+    } */
+
+
+
+
+    /*      About     */
+    .abtcont {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background: #191970;
+        /* width: 100vw; */
+        
+    }
+    .abtcont img{
+        width: 60vw;
+    }
+    .abtcont p {
+        font-size: medium;
+        font-weight: 100;
+        margin-left: -20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .abtme p{
+        font-size: 18px;
+    }
+
+    .abtme {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 20px;
+    }
+
+    /*  Education  */
+
+    .education .edu {
+        font-size: medium;
+    }
+
+    .school {
+        /* margin-left: 20px;border-bottom: 3px solid cyan;width: fit-content; padding: 5px; */
+        font-size: xx-large;
+        font-weight: normal;color: cyan;
+    }
+    .school img{
+        height: 40vh; width: 40vw; border-radius: 10px;
+    }
+    .inst {
+        font-size: large;
+        font-weight: normal;
+        margin-left: 20px;
+    }
+
+    .edu {
+        padding: 10px;
+        width: fit-content;
+        margin: 7px 0px;
+    }
+
+    .education {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+        background: #191970;
+       
+    }
+
+
+
+    /*  Skills */
+
+    .Skills{
+        margin-top: 20px;
+        /* background: #3535c9; */
+    }
+    .sk{
+        color: cyan;
+        /* background:  cyan; */
+        padding: 7px 14px;
+        /* transform: skew(-20deg); */
+         border-radius: 80%;
+         padding: 10px;
+        text-align: center;
+        padding-right: 20px;
+        /* text-orientation: sideways-right; */
+    }
+    .projects,.About{
+        width: 100vw;
+        background: #191970;
+    }
+    .skill i,.pro i{
+       background: #191970;
+       color:  cyan;
+       transform:scale(4);
+           /* font-size: x-large; */
+       /* padding: 2px; */
+    }
+    .pro i{
+        background: #191970;
+    }
+    .skill{
+        /* width: fit-content;
+        height: fit-content; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        gap: 20px;
+        /* background: red; */
+        margin: 10px;
+        padding:10px;
+        /* background: red; */
+    }
+    .multiskills{
+        /* margin: 50px 50px; */
+        margin-top: 30px;
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+        /* align-items: center; 
+        justify-content: space-around;
+        grid-gap: 1rem; */
+      
+    }
+    .proj{
+      margin-top: 50px;
+      display: flex;
+      background: #191970;
+      /* font-display: auto; */
+      flex-direction: column;
+    }
+    .pclass{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        margin: 10px 0px;
+    }
+    .pro{
+        /* background: red; */
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin: 10px;
+        padding:10px;
+        /* gap: 10px; */
+    }
+    .pmat{
+        width: 50vw;
+        font-size: large;
+        padding: 20px;
+        color: #ADD8E6;
+        /* background: red; */
+    }
+   
+    /* Define keyframes for the animation */
+@keyframes projectIcon {
+    0% {
+        transform: scale(1) rotate(0deg); /* Initial state */
+      }
+      50% {
+        transform: scale(0.5) rotate(180deg); /* Scale up halfway through */
+      }
+      100% {
+        transform: scale(1) rotate(0deg); /* Return to the initial state */
+      }
+  }
+  .pro {
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+  }
+  .pro:hover {
+    animation: projectIcon 1s forwards; 
+  }
+  .details{
+    margin: 5px 50px;
+  }
+  .details p{
+    font-size: medium;
+  }
+  input{
+    color: black;
+  }
+  #form1{
+    display:flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+  }
+   #form1 input , #form1 button{
+    width: 300px; 
+     height: 40px;
+    margin: 10px;
+    font-size: large;
+    padding: 10px;
+    background: rgb(234, 222, 222);
+    border-radius: 10px;
+ }
+#form1  button{
+    background: cyan;
+    color: #0e0e3f;
+ }
+footer{
+    background: #0e0e3f;
+    color: white;
+    width: 100vw;
+    font-size: medium;
+    text-align: center;
+    padding: 15px;
+}
+@keyframes dpimage_animation {
+    0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.dp img{
+    border-radius: 10%;
+    /* border:5px cyan solid; */
+    
+      
+    
+}
+@media (max-width:952px) {
+    .abtcont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        width: 100vw;
+        
+    }
+    .abtme p{
+        font-size: 25px;
+    }
+    .schoolpic img{
+        display:none;
+    }
+    .edu p{
+        font-size:30px;
+    }
+}
+@media (max-width: 600px) {
+   .home{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.navbar{
+    height: 50px;
+}
+.abtme p{
+    font-size: 18px;
+}
+.schoolpic img{
+    display:none;
+}
+.edu p{
+    font-size:20px;
+}
+.education{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.multiskills{
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+.multiskills i{
+    transform: scale(2.5);
+}
+.pclass{
+    display: flex;
+    flex-direction: column;
+}
+.navbar a{
+    display: none;
+}
+.pro ,.pmat{
+    width: 100vw;
+}
+.pic img{
+    width: 75vw;
+
+}
+
+#pclass2{
+    flex-direction: column-reverse;
+}
+#bar{
+    display: block;
+}
+.media{
+margin: 20px;
+}
+.ckd {
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+    background: #0e0e3f;
+    top: 80px;
+    right: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    color: #191970;
+    bottom: 10px;
+    border-bottom-left-radius: 10px;
+}
+.ckd a {
+    display: block;
+    margin: 20px 0px;
+    line-height: 20px; 
+}
+@keyframes baricon {
+    0% {
+        transform: scale(01) ;
+      }
+      50% {
+        transform: scale(0.85);/* Scale up halfway through */
+      }
+      100% {
+        transform: scale(1) ;}
+  }
+  .home h2 {
+    font-size: 30px;
+  }
+  .school {
+    font-size:25px;
+  }
+  .home p{
+    width: 100vw;
+    margin-right: -20px;
+  }
+/* nav ul li a {
+    font-size: 20px;
+} */
+#check:checked~ .ckd {
+    right :0px;
+  animation: baricon 1s;
+}
+}
