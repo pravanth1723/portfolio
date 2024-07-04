@@ -1,4 +1,4 @@
-    body {
+        body {
         background: #191970;
         overflow-x: hidden;
     }
@@ -460,6 +460,9 @@ footer{
 .pic img{
     width: 75vw;
 
+}
+.dp {
+    scale:0.8;
 }
 
 #pclass2{
